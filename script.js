@@ -256,7 +256,7 @@ function showModal(){
       $('#body-record').html(recordtemplate);
 
       
-      // if (playtimes == 520) $(".modal-body").text('Lily我喜歡你，做我女朋友好嗎? 我喜歡你笑起來很可愛的樣子，也喜歡和你相處聊天時候的感覺，當你難過時我會陪你一起難過，聽到你哭的時候我會非常的不捨甚至會覺得我怎麼這麼沒用，我會陪你笑也陪你哭，當你開心時會陪你一起開心，你的笑容真的很可愛要常常笑不要在哭了!!!');
+
       $('#result-modal').modal('show');
       $(".result-btn").click(function() {
         $('#result-modal').modal('hide');
@@ -289,17 +289,9 @@ function importCsv(){
     } else{
         csvList =[];
         csvList.push('標題')
-        csvList.push('Lily刮刮樂中頭獎1000萬!!!')
-        csvList.push('Lily獲得一罐Jomalone香水!!!');
-        csvList.push('Lily威力彩中頭獎!!!');
-        csvList.push('Lily新年快樂，要每天快樂不要傷心難過!!!');
-        csvList.push('Lily獲得香奈兒包包!!!');
-        csvList.push('Lily獲得愛馬仕項鍊!!!');
-        csvList.push('Lily很多人愛你疼妳不要難過!!!');
-        csvList.push('Lily不管怎樣都要開心!!!');
-        csvList.push('Lily獲得麥當勞蘋果派!!!');
-        csvList.push('Lily獲得免費的輕井澤!!!');
-        csvList.push('Lily已獲得好運天使祝福!!!');
+        csvList.push('牛肉麵')
+        csvList.push('蝦仁炒飯')
+        csvList.push('水餃')
 
         importState = 1;
         $(".hint-text .text").text("按住螢幕往下滑動");
