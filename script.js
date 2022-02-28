@@ -289,9 +289,14 @@ function importCsv(){
     } else{
         csvList =[];
         csvList.push('標題')
-        csvList.push('牛肉麵')
-        csvList.push('蝦仁炒飯')
-        csvList.push('水餃')
+        csvList.push('輕井澤')
+        csvList.push('沐明鍋物')
+        csvList.push('屋馬')
+		csvList.push('湯棧')
+		csvList.push('海底撈')
+		csvList.push('暮藏和牛鍋物')
+		
+		
 
         importState = 1;
         $(".hint-text .text").text("按住螢幕往下滑動");
