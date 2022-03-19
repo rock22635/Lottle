@@ -292,9 +292,13 @@ function importCsv(){
         csvList.push('輕井澤')
         csvList.push('沐明鍋物')
         csvList.push('屋馬')
-		csvList.push('湯棧')
-		csvList.push('海底撈')
-		csvList.push('暮藏和牛鍋物')
+	csvList.push('湯棧')
+	csvList.push('海底撈')
+	csvList.push('暮藏和牛鍋物')
+	csvList.push('月暮藏涮涮鍋')
+	csvList.push('嚮辣')
+	csvList.push('隱鍋')
+	
 		
 		
 
